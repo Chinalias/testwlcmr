@@ -101,7 +101,7 @@ const w = ['./w1.png'];
 
                                  ctx.clip();
 
-                        ctx.drawImage(ava, 7, 8, 227, 225);
+             ctx.drawImage(ava, 36, 21, 260, 260);
                               ctx.closePath();
  channel.sendFile(canvas.toBuffer())
                           })
