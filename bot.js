@@ -93,15 +93,13 @@ const w = ['./w1.png'];
 
                               //AVATARً
                               let Avatar = Canvas.Image;
-                              let ava = new Avatar;
-                              ava.src = buf;
-                              ctx.beginPath();
-             ctx.arc(169.5, 148, 126.9, -100, Math.PI * 2, true);
-                   ctx.closePath();
-
-                                 ctx.clip();
-
-             ctx.drawImage(ava, 36, 21, 260, 260);
+          let ava = new Avatar;
+          ava.src = buf;
+          ctx.beginPath();
+          ctx.arc(169.5, 148, 126.9, -100, Math.PI * 2, true);
+          ctx.closePath();
+          ctx.clip();
+          ctx.drawImage(ava, 36, 21, 260, 260);
                               ctx.closePath();
  channel.sendFile(canvas.toBuffer())
                           })
