@@ -7,7 +7,7 @@ const Canvas = require('canvas');
 
 client.on('guildMemberAdd', member => {
      const welcomer =  member.guild.channels.find('name', 'chat');
-const w = ['./welcome2.png'];
+const w = ['./welcome.png'];
 
          let Image = Canvas.Image,
             canvas = new Canvas(400, 200),
