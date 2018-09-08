@@ -31,7 +31,8 @@
     "sqlite3": "^4.0.0",
     "youtube-info": "^1.2.0",
     "ytdl-core": "^0.20.3",
-"giphy-api":"^1.2.7"
+"giphy-api":"^1.2.7",
+"goo.gl":"^0.1.4"
   },
   "engines": {
     "node": "8.4.0"
