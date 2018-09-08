@@ -1,10 +1,4 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const fs = require('fs');
-client.on('ready', function() {
-    client.user.setGame( `test `,"http://twitch.tv/Baktash_183")
-    console.log(`i am ready ${client.user.username}`);
-});
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
@@ -12,6 +6,11 @@ const moment = require('moment');
 const jimp = require('jimp');
 const Canvas = require('canvas');
  
+client.on('ready', function() {
+    client.user.setGame( `test `,"http://twitch.tv/Baktash_183")
+    console.log(`i am ready ${client.user.username}`);
+});
+
 client.on('guildMemberAdd', member => {
      const welcomer =  member.guild.channels.find('name', 'chat');
 const w = ['./w1.png'];
