@@ -96,7 +96,7 @@ const w = ['./w1.png'];
                               let ava = new Avatar;
                               ava.src = buf;
                               ctx.beginPath();
-                 ctx.arc(120.8, 120.5, 112.3, 0, Math.PI*2, true);
+             ctx.arc(169.5, 148, 126.9, -100, Math.PI * 2, true);
                    ctx.closePath();
 
                                  ctx.clip();
@@ -107,5 +107,7 @@ const w = ['./w1.png'];
                           })
 })
 });
+
+
 
 client.login(process.env.BOT_TOKEN);
